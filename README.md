@@ -1,16 +1,34 @@
-# React + Vite
+# IELTS Institute Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive homepage for a fictional IELTS Institute built with **React.js**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Setup Instructions
 
-## React Compiler
+1. Clone the repository
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   ```bash
+   git clone https://github.com/yourusername/ielts-homepage.git
+   cd ielts-homepage
+   ```
 
-## Expanding the ESLint configuration
+2. Install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🎨 Design Choices
+
+* **Clean Layout:** Sections like Hero, Features, Testimonials, and Contact are clearly separated for better readability.
+* **External CSS:** All styling is managed in `styles.css` for easier customization.
+* **Responsive Design:** Mobile-first approach ensures the site looks good on phones, tablets, and desktops.
